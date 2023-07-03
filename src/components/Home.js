@@ -60,7 +60,7 @@ export default function Home() {
   return (
     <Post className='home'>
       <BlogHeading>Tech Blogs</BlogHeading>
-      <div id='blog-by'> Himanshu Vaidya </div>
+      <div id='blog-by'> Vaishalee </div>
 
       {posts.map((post, index) => (
         <Post className='post' key={`post-${index}`}>
